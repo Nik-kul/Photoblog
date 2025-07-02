@@ -5,11 +5,6 @@ body {
   background-color: #ffffff;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 /* Хедер */
 .header {
@@ -104,4 +99,5 @@ body {
 
 .footer {
   background-color: #ffffff;
+  color: #ffffff
 }
