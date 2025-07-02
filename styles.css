@@ -98,6 +98,7 @@ body {
 }
 
 .footer {
-  color: #212121;
-  background-color: #ffffff;
+  background-color: #2f303a;
+  color:#ffffff;
+  padding:40px 0;
 }
