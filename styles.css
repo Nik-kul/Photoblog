@@ -102,6 +102,12 @@ color: #2f303a;
 text-decoration: none;
 }
 
+.footer {
+  background-color: #2f303a;
+  padding: 60px 0;
+  color: #ffffff;
+}
+
 .footer a:hover {
 color: #2196f3;
 }
