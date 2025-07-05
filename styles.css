@@ -103,5 +103,5 @@ body {
 }
 
 .white {
-  color:ffffff
+  color: ffffff !important; 
 }
