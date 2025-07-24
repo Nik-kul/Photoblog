@@ -1,2 +1,2 @@
-# Photoblog
+# WebStudio
 my project
