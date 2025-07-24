@@ -1,118 +1,78 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>WebStudio</title>
-   <link rel="stylesheet" href="./styles.css" />
- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <div class="container header-container">
-      <nav class="nav"> 
-        <ul class="nav-list">
-          ㅤㅤㅤㅤㅤㅤ<a style="color: black;font-size: 30px;" href="#" class="logo"><span style= "color:#2196f3;font-size: 30px;">Web</span>Studio</a> ㅤㅤㅤ
-          <td><a style="color: black;" href="#" class="nav-link current">Студія</a></td>ㅤㅤㅤ
-          <td><a style="color: black;" href="#" class="nav-link">Портфоліо</a></td>ㅤㅤㅤ
-          <td><a style="color: black;" href="#" class="nav-link">Контакти</a></td>ㅤㅤ 
-          <td><a style="color: black;" href="mailto:info@devstudio.com">info@devstudio.com</a></td>ㅤ
-  <td><a style="color: black;" href="tel:+380961111111">+38 096 111 11 11</a></td>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="container hero-content">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h1 style="text-align: center;">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ 
-          <br>
-          ВАШОГО БІЗНЕСУ
-           </h1>
-       <button class="btnrimary">Замовити послугу</button>
-      </div>
-    </section>
-<br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+  <!-- Header -->
+ <header class="header">
+  <div class="header">
+    ㅤㅤ<a href="#" class="logo"><span>Web</span>Studio</a>ㅤㅤㅤㅤㅤㅤ
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#" class="nav-link current">Студія</a></li>ㅤㅤㅤㅤ
+        <li><a href="#" class="nav-link">Портфоліо</a></li>ㅤㅤㅤㅤ
+        <li><a href="#" class="nav-link">Контакти</a></li>ㅤㅤㅤㅤㅤㅤㅤ
+      </ul>
+    </nav>
 
-<section>
-  <div  style="display: flex; justify-content: start; gap: 40px;margin-left: 100px;">
-    <div>
-      <h3 style="font-size:14px;">УВАГА ДО ДЕТАЛЕЙ</h3>
-      <p style="color: #555555;">Ідейні міркування, і навіть початок повсякденної роботи з формування<br> позиції.</p>
-    </div>
-    <div>
-      <h3 style="font-size: 14px;">ПУНКТУАЛЬНІСТЬ</h3>
-      <p  style="color: #555555;">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-    </div>
-    <div>
-      <h3 style="font-size: 14px;">ПЛАНУВАННЯ</h3>
-      <p style="color: #555555;">Так само консультація з широким активом значною мірою зумовлює.</p>
-    </div>
-    <div>
-      <h3 style="font-size: 14px;">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-      <p style="color: #555555;">Значимість цих проблем настільки очевидна, що реалізація планових<br> завдань.</p>
-    </div>
+    <ul class="contacts">
+      <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>ㅤㅤㅤㅤ
+      <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    </ul>
   </div>
-</section>
- <h2 style="text-align: center;">
-Чим ми займаємося
- </h2>  
- <br>
- <div style="display: flex;justify-content: start;gap: 40px;margin-left: 100px;">
-   <img src="1.jpg" alt = 1 style="width: 1300px;"> 
-</div>   
-  </main>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h2 style="text-align: center;"> Наша команда</h2>
-     <div style="display: flex;justify-content: start;gap: 40px;margin-left: 100px;">
-  <img src="2.png" alt = "1" style="width:1300px;" >  
-     </div>
+</header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+      <button class="hero-button">Замовити послугу</button>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features section">
+    <div class="container">
+      <ul class="features-list">
+        <li>
+          <h3 class="feature-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+          <p class="feature-text">Ідейні міркування, а також початок повсякденної роботи.</p>
+        </li>
+        <li>
+          <h3 class="feature-title">ПУНКТУАЛЬНІСТЬ</h3>
+          <p class="feature-text">Завдання організації, особливо рамки і місце навчання.</p>
+        </li>
+        <li>
+          <h3 class="feature-title">ПЛАНУВАННЯ</h3>
+          <p class="feature-text">Так само консультація з широким активом значною мірою.</p>
+        </li>
+        <li>
+          <h3 class="feature-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+          <p class="feature-text">Значимість цих проблем настільки очевидна.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer class="footer">
-    <br>
-    <br>
-    <div style="display: flex;justify-content: start;gap: 40px;margin-left: 100px;">
-    <a  style= "color: black; font-size: 30px; font:bold ;"  href="#" class="logo"><span  style = "color:#2196f3; font-size: 40;font: bold;" >Web</span >Studio</a> 
-      </div>
-        <br>
-        <address>
+    <div class="container">
+      <a href="#" class="logo"><span>Web</span>Studio</a>
+      <address>
         <ul class="footer-contacts">
-            <div style="display: flex;justify-content: start;gap: 40px;margin-left: 80px;">
           <li>м. Київ, пр-т Лесі Українки, 26</li>
-          </div>
-          <br>
-          <div style="display: flex;justify-content: start;gap: 40px;margin-left: 80px;">
-          <li><a href = "" class="white">info@devstudio.com</a></li>
-          </div>
-          <br>
-          <div style="display: flex;justify-content: start;gap: 40px;margin-left: 80px;">
-          <li><a href="" class="white">+38 096 111 11 11</a></li>
-        </div>
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-    </address>
+      </address>
+    </div>
   </footer>
 </body>
 </html>
